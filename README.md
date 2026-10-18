@@ -1,7 +1,9 @@
 # couchmpv
 A TV Video Player for Linux based on libmpv optimized for tv remote use.
 
+
 **Dependencies:** python-gobject gtk3 mpv python-mpv python-cairo, otf-font-awesome (optional for the osd icons).
+
 
 **Usage:**
 Arrows Left/Right: seek video 20 seconds.
@@ -15,6 +17,7 @@ OK/Enter/Space: play/pause the video.
 Back/Esc/Backspace: close the video or go to the previous screen.
 
 Home-Button: minimizes the player and go back to your Desktop Environment and resume where you left when you open the app again.
+
 
 **Features:**
 A nice File Browser interface for you to search your video files and play. You can add/remove any directory to the *couchmpv.py* in the DIRECTORIES section around line 46 of the code e.g: *os.path.expanduser("~/Movies"),*
