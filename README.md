@@ -20,8 +20,12 @@ Home-Button: minimizes the player and go back to your Desktop Environment and re
 
 
 **Features:**
-A nice File Browser interface for you to search your video files and play. You can add/remove any directory to the *couchmpv.py* in the DIRECTORIES section around line 46 of the code e.g: *os.path.expanduser("~/Movies"),*
+A nice File Browser interface for you to search your video files and play. You can add/remove any directory to the *config* file located in ~/.config/couchmpv/config.
 
 Watch History, it keeps track of all your played videos, the exact minute you stopped so it resumes where you left previously, it also marks a video as watched if you played 90% of the video and adds a ✓ icon so you know you finished the video, the watch history is located in *~/.config/couchmpv/history.json* basically just a JSOn file, you can delete it to reset the watch history if you want.
 
-It's based on MPV so you can adjust the settings just like it in the *couchmpv.py*, around the line 748, or just search for "PLAYER SETTINGS" with your text editor/IDE and use the self.player call to the setting you want, e.g: "self.player['brightness'] = 5" Know what you are doing!
+It's based on MPV so you can adjust the settings just like it in the *config* file.
+e.g:
+sub-font-size=52
+sub-font=sans-serif
+alang=en,eng
