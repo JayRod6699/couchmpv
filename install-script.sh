@@ -1,12 +1,11 @@
 #!/bin/sh
 
-echo "moving files, super user permissions needed:
-"
+echo "Installing CouchMPV..."
+echo "Superuser permissions required."
+echo
 
-sudo cp couchmpv.py /bin
-sudo cp couchmpv.desktop /usr/share/applications
-sudo chmod +x /usr/share/applications/couchmpv.desktop
-sudo chmod +x /bin/couchmpv.py
+sudo install -m 755 couchmpv.py /bin/couchmpv.py
+sudo install -Dm 644 couchmpv.desktop /usr/share/applications/couchmpv.desktop
 
-echo "
-Finished!"
+echo
+echo "CouchMPV installation finished!"
