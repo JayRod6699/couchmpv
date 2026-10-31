@@ -1,10 +1,10 @@
 [Desktop Entry]
+Version=1.0
 Type=Application
-Exec=couchmpv.py
-Icon=mpv
-Terminal=false
-Categories=Media;Video-Player;
-Keywords=mp4;mkv;mpv;video;player;media;couch;
 Name=CouchMPV
-GenericName=Player
-Comment=A TV video player for linux.
+Comment=TV-friendly video player
+Exec=/bin/couchmpv.py
+Icon=video-x-generic
+Terminal=false
+Categories=AudioVideo;Video;Player;
+StartupNotify=false
