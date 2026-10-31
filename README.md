@@ -1,7 +1,6 @@
 # couchmpv
 A TV Video Player for Linux based on libmpv optimized for tv remote use.
-
-
+\
 **Dependencies:** ```python3, python3-gi, gir1.2-gtk-3.0, gir1.2-gdkpixbuf-2.0, python3-cairo, python3-gi-cairo, mpv, libmpv2, python3-mpv, ffmpeg, otf-font-awesome (optional for the osd icons).```
 
 Debian/Ubuntu/Mint:
