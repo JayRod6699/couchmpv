@@ -11,7 +11,7 @@ Arch:
 ```
 sudo pacman -S python python-gobject gtk3 mpv python-mpv python-cairo ffmpeg
 ```
-Fedore: 
+Fedora: 
 ```
 sudo dnf install python3 python3-gobject gtk3 python3-cairo gobject-introspection mpv libmpv python3-mpv ffmpeg
 ```
