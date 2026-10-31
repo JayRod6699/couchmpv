@@ -58,3 +58,11 @@ XML Syntax:
   <plot>showplot.</plot>
 </tvshow>
 ```
+\
+\
+**Screenshots:**
+![Alt Text](https://github.com/JayRod6699/couchmpv/blob/screenshots/1.png)
+![Alt Text](https://github.com/JayRod6699/couchmpv/blob/screenshots/2.png)
+![Alt Text](https://github.com/JayRod6699/couchmpv/blob/screenshots/5.png)
+![Alt Text](https://github.com/JayRod6699/couchmpv/blob/screenshots/3.png)
+![Alt Text](https://github.com/JayRod6699/couchmpv/blob/screenshots/4.png)
