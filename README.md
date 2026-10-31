@@ -32,6 +32,7 @@ Back/Esc/Backspace: close the video or go to the previous screen.
 Home-Button: minimizes the player and go back to your Desktop Environment and resume where you left when you open the app again.
 \
 \
+\
 **Features:**
 A nice File Browser interface for you to search your video files and play. You can add/remove any directory to the ```config``` file located in ```~/.config/couchmpv/config.```
 \
