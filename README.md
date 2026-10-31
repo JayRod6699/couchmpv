@@ -3,7 +3,9 @@ A TV Video Player for Linux based on libmpv optimized for tv remote use.
 
 
 **Dependencies:** python-gobject gtk3 mpv python-mpv python-cairo, otf-font-awesome (optional for the osd icons).
-
+Debian/Ubuntu/Mint: ```sudo apt install python3 python3-gi gir1.2-gtk-3.0 gir1.2-gdkpixbuf-2.0 python3-cairo python3-gi-cairo mpv libmpv2 python3-mpv ffmpeg```
+Arch: ```sudo pacman -S python python-gobject gtk3 mpv python-mpv python-cairo ffmpeg```
+Fedore: ```sudo dnf install python3 python3-gobject gtk3 python3-cairo gobject-introspection mpv libmpv python3-mpv ffmpeg```
 
 **Usage:**
 Arrows Left/Right: seek video 20 seconds.
@@ -20,17 +22,19 @@ Home-Button: minimizes the player and go back to your Desktop Environment and re
 
 
 **Features:**
-A nice File Browser interface for you to search your video files and play. You can add/remove any directory to the *config* file located in ~/.config/couchmpv/config.
+A nice File Browser interface for you to search your video files and play. You can add/remove any directory to the ```config``` file located in ```~/.config/couchmpv/config.```
 
-Watch History, it keeps track of all your played videos, the exact minute you stopped so it resumes where you left previously, it also marks a video as watched if you played 90% of the video and adds a ✓ icon so you know you finished the video, the watch history is located in *~/.config/couchmpv/history.json* basically just a JSOn file, you can delete it to reset the watch history if you want.
+Watch History, it keeps track of all your played videos, the exact minute you stopped so it resumes where you left previously, it also marks a video as watched if you played 90% of the video and adds a ✓ icon so you know you finished the video, the watch history is located in ```~/.config/couchmpv/history.json``` basically just a JSOn file, you can delete it to reset the watch history if you want.
 
-It's based on MPV so you can adjust the settings just like it in the *config* file.
+It's based on MPV so you can adjust the settings just like it in the ```config``` file.
 e.g:
+```
 sub-font-size=52
 sub-font=sans-serif
 alang=en,eng
+```
 
-Banner and Poster support, any picture files matching the name of the video file or folder's name, will be recognized and displayed, to make the picture be recognized as a Poster, it needs to have "_Poster" at the end of the file name, to be recognized as a Banner, it should end with "_Banner" e.g: Pulp_Fiction_Banner.jpg.
+Banner and Poster support, any picture files matching the name of the video file or folder's name, will be recognized and displayed, to make the picture be recognized as a Poster, it needs to have "_Poster" at the end of the file name, to be recognized as a Banner, it should end with "_Banner" e.g: ```Pulp_Fiction_Banner.jpg.```
 
 NFO Support, to show information such as Title, Release Year, Plot, you can add an NFO matching the video file's name or folder's name. example:
 Pulp_Fiction.nfo (matching Pulp_Fiction.mkv).
