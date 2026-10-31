@@ -17,7 +17,6 @@ Fedora:
 sudo dnf install python3 python3-gobject gtk3 python3-cairo gobject-introspection mpv libmpv python3-mpv ffmpeg
 ```
 \
-\
 **Usage:**
 Arrows Left/Right: seek video 20 seconds.
 
