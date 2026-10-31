@@ -29,3 +29,17 @@ e.g:
 sub-font-size=52
 sub-font=sans-serif
 alang=en,eng
+
+Banner and Poster support, any picture files matching the name of the video file or folder's name, will be recognized and displayed, to make the picture be recognized as a Poster, it needs to have "_Poster" at the end of the file name, to be recognized as a Banner, it should end with "_Banner" e.g: Pulp_Fiction_Banner.jpg.
+
+NFO Support, to show information such as Title, Release Year, Plot, you can add an NFO matching the video file's name or folder's name. example:
+Pulp_Fiction.nfo (matching Pulp_Fiction.mkv).
+XML Syntax:
+```
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tvshow>
+  <title>NameOfTheShow</title>
+  <year>2010</year>
+  <plot>showplot.</plot>
+</tvshow>
+```
